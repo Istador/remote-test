@@ -1,5 +1,5 @@
 # this is a simple test
 
-to remote push to github with an post-update hook on my local git server everytime I push to it.
+The repository on my local git server is copied to this github repository
+with an post-update hook that is changing the commiter's email address.
 
-test7
