@@ -38,7 +38,8 @@ git filter-branch --env-filter '
 ' --tag-name-filter cat -- --branches --tags
 
 git remote add github https://username:token@github.com/Username/repo-name.git
-git push --force --tags github 'refs/heads/*'
+git push --force --quiet --tags github 'refs/heads/*'
+echo "To https://github.com/Username/repo-name.git"
 
 cd ..
 rm repo-name.git --rf
